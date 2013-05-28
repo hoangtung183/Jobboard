@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component"
+			version="2.5"
+			method="upgrade">
+	<name> com_pos </name>
+	<author>tung183</author>
+	<creationDate> ABC </creationDate>
+	<authorEmail> hoangtung_183@yahoo.com</authorEmail>
+	<version>2.5.9</version>
+	<description>
+		Lập trình Joomla 
+	</description>
+	<administration>
+		<menu link="option=com_pos">
+			Quan ly Pos </menu>
+		<submenu>
+			<menu link="option=com_pos">
+				iTable </menu>
+			<menu	
+				link="option=com_pos&amp;view=category"
+				view="category" > category </menu>
+			<menu	
+				link="option=com_pos&amp;view=items"
+				view="items" > Items </menu>
+			<menu	
+				link="option=com_pos&amp;view=invoice"
+				view="invoice" >Invoice</menu>
+			<menu	
+				link="option=com_pos&amp;view=khachhang"
+				view="khachhang" >khach hang</menu>
+		
+		</submenu>
+		
+		<files>
+			<filename>controller.php</filename>
+			<filename>pos.php</filename>
+			<filename>pos.xml</filename>
+			<folder>helpers</folder>
+			<folder>images</folder>
+			<folder>controllers</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+			<folder>tables</folder>
+		</files>
+	</administration>
+</extension>
