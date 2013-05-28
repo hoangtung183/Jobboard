@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+*{margin:0; padding: 0}
+.bookcom{
+ list-style: none;}
+.mnbook2 {
+ margin-left:100px;
+ display:none;
+ position: absolute;
+}
+#wrapper{width: 120px}
+
+#mnbook1 li{background: green ;line-height:25px;height: 25px ; border-top:1px solid #eee;position: relative } 
+#mnbook1 a{color:white;padding: 0 45px ;text-decoration:none }
+#mnbook1 li:hover {background:#FF8900}

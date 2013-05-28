@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+			<field name="created" type="calendar" label="COM_CONTENT_FIELD_CREATED_LABEL"
+			description="COM_CONTENT_FIELD_CREATED_DESC" class="inputbox" size="22"
+			format="%Y-%m-%d %H:%M:%S" filter="user_utc" />
+			
+			<field name="ten"
+			label="Tên sách"
+			type="text"/>
+		
+			<field name="loai_id"
+			type="loai"
+			label="Thể loại"/>
+				
+			<field name="nam_xuatban"
+			type="text"
+			label="Năm xuất bản"
+			size="50"/>
+			
+			<field name="lan_xuatban"
+			type="text"
+			label="Lần xuất bản"
+			size="50"/>
+			
+			<field name="nha_xuatban"
+			type="text"
+			label="Nhà xuất bản"
+			size="50"/>
+			
+			<field name="tacgia"
+			type="text"
+			label="Tác giả"
+			size="50"/>
+			
+			<field name="gia"
+			type="text"
+			label="Giá"
+			size="50"/>
+			
+			<field name="soluong"
+			type="text"
+			label="Số lượng"
+			size="50"/>
+	</fieldset>
+</form>

@@ -1,0 +1,24 @@
+#vi_left{
+    width:665px;
+    float:left;
+}
+#vi_right{
+    width:228px;
+    float:right;
+}
+#vi_left .vi_p_postajob{
+    width:612px;
+    height:35px;
+    text-align: center;
+}
+.vi_jobinput{
+    width:595px;
+    height:41px;
+}
+.vi_jobinput_label{
+    float:left;
+}
+.vi_jobinput_input{
+    float:right;
+    width:321px;
+}
